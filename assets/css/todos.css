@@ -1,0 +1,9 @@
+body{
+	/*background: purple;*/
+}
+
+#container{
+	width: 36%;
+	margin: 0 auto;
+	background-color: lightgray;
+}
