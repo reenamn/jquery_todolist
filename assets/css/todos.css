@@ -5,5 +5,11 @@ body{
 #container{
 	width: 36%;
 	margin: 0 auto;
-	background-color: lightgray;
+	/*background-color: lightgray;*/
+	border: 2px solid gray;
+}
+
+.completed{
+	color:gray;
+	text-decoration: line-through;
 }
