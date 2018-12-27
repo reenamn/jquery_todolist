@@ -25,7 +25,7 @@ $("input[type='text']").keypress(function(){
 
 		//create new LI
 
-		$("ul").append("<li><span>X</span> "+todoText+"</li>");
+		$("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> "+todoText+"</li>");
 
 		//clear the input field
 		$(this).val("");
