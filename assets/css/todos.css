@@ -59,6 +59,8 @@ input{
 	padding: 10px 20px;
 	margin-top: 0;
 	color: #2980e9;
+
+	border: 3px solid rgba(0,0,0,0);
 }
 
 input:focus{
@@ -67,16 +69,30 @@ input:focus{
 	outline: none;
 }
 
-.fa-pencil-alt{
+.fa-plus{
 	float: right;
 }
 
-span{
-	width: 40px;
+li span{
+	width: 0px;
 	background-color: #e74c3c;
 	height: 40px;
 	margin-right: 20px;
 	text-align: center;
 	color: white;
 	display: inline-block;
+	opacity: 0;
+	transition: 0.2s linear;
 }
+
+li:hover span{
+	width: 40px;
+	opacity: 1;
+	transition: 0.2s linear;
+}
+
+
+
+
+
+

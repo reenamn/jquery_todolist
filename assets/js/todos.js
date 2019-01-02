@@ -34,3 +34,10 @@ $("input[type='text']").keypress(function(){
 
 
 })
+
+$("span .fa-plus").on("click", function(){
+	//show the input
+
+	console.log("You clicked the PLUS");
+	$("input[type='text']").fadeToggle("slow", "linear");
+})
